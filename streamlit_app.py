@@ -13,7 +13,7 @@ def predict(input_data):
 
 # Streamlit app code
 st.set_page_config(page_title="NefroAi: CKD Predictor", layout="centered")
-st.title("🩺 NefroAi: A Real-Time Framework for Predicting Chronic Kidney Disease")
+st.title("NefroAi: A Real-Time Framework for Predicting Chronic Kidney Disease")
 
 st.markdown("""
 Welcome to **NefroAi**, an intelligent system to help predict the risk of **Chronic Kidney Disease (CKD)** using clinical values.  
