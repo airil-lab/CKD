@@ -41,6 +41,6 @@ if st.button("Predict"):
     
     # Display the prediction result
     if prediction == 1:
-        st.error("Machine predict You May be Chronic Kidney Disease , Please meet doctor soon")
+        st.error("You May have Chronic Kidney Disease, Please meet the doctor soon.")
     else:
-        st.success("Machine predict, you are safe")
+        st.success("You are safe")
